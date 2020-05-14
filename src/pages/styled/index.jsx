@@ -28,6 +28,8 @@ export default class extends React.Component {
       return (
          <>
             <p>Hello home</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, velit?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ad dolore molestias nostrum ea pariatur labore cupiditate tempore et cum?</p>
             <MainBlock test={this.state.test} valid={this.state.valid} />
             <button onClick={this.testTrue}>true</button>
             <button onClick={this.testFalse}>false</button>
